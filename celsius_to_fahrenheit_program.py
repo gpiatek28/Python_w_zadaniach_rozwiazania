@@ -1,4 +1,4 @@
-celsius = int(input())  
+celsius = int(input('Podaj ile stopni C:'))
 
 def conv(c):
         c = celsius
@@ -8,4 +8,4 @@ def conv(c):
 
 fahrenheit = conv(celsius)
 
-print(fahrenheit)
+print(celsius,"st. C, to", fahrenheit ,"st. F.")
